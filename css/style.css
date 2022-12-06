@@ -1,3 +1,47 @@
-h1 {
-  color: blue;
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color:#333
+}
+
+p {
+  padding: 10px;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#header {
+  float: left;
+  height: 10px;
+  width: 1000px;
+  background: #000000;
+}
+
+#navigation {
+  float: left;
+  height: 40px;
+  width: 1000px;
+  background: #FFFFFF;
+}
+
+#content {
+  float: left;
+  background: #FFFFFF;
+  width: 850px;
+}
+
+#leftcolumn {
+  background: #728585;
+  width: 150px;
+  float: left;
+}
+
+#footer {
+  height: 40px;
+  width: 1000px;
+  background: #000000;
+  clear: both;
 }
