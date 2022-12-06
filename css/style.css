@@ -8,38 +8,38 @@ p {
   padding: 10px;
 }
 
-#wrapper {
+.wrapper {
   margin: 0 auto;
   width: 1000px;
 }
 
-#header {
+.header {
   float: left;
   height: 10px;
   width: 1000px;
   background: #000000;
 }
 
-#navigation {
+.navigation {
   float: left;
   height: 40px;
   width: 1000px;
   background: #FFFFFF;
 }
 
-#content {
+.content {
   float: left;
   background: #FFFFFF;
   width: 850px;
 }
 
-#leftcolumn {
+.leftcolumn {
   background: #728585;
   width: 150px;
   float: left;
 }
 
-#footer {
+.footer {
   height: 40px;
   width: 1000px;
   background: #000000;
