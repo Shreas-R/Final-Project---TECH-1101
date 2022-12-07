@@ -17,6 +17,7 @@ body {
 }
 
 .navigation {
+  width: max-content;
   overflow: hidden;
   background-color: #000000;
 }
