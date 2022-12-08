@@ -69,7 +69,7 @@ body {
 
 .title{
   color: white;
-  text-align-last: center;
+  align-content: center;
 }
 
 .navigation a:hover {
