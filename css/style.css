@@ -1,7 +1,7 @@
 body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 13px;
-  color:#333
+  color:black;
 }
 
 .wrapper {
@@ -17,10 +17,23 @@ body {
 }
 
 .navigation {
+  width: max-content;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.navigation a {
   float: left;
-  height: 40px;
-  width: 1000px;
-  background: #FFFFFF;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigation a:hover {
+  background-color: gray;
+  color: antiquewhite;
 }
 
 .content {
