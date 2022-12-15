@@ -8,7 +8,10 @@ body {
   padding: 20px;
 }
 .form div {
-  margin: 3%;
+  margin: 5px;
+}
+.form label {
+  size: 5px;
 }
 .form textarea {
   width: 500px;
