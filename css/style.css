@@ -1105,3 +1105,51 @@ body{
 .package-name{
   font-size: 16px;
 }
+.dropbtn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding-left: 33px;
+  font-size: 15px;
+  font-style: italic;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #9f9f9f}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-style: bold;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  text-decoration:none;
+  background-color:transparent;
+  font-style: bold;
+}
