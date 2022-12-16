@@ -73,13 +73,10 @@ body {
 .contact-form .input-text:focus {
   outline: none;
 }
-.contact-form .input-text:focus + .label, .contact-form .input-text.not-empty + .label {
-  transform: translateY(-24px);
-}
 .contact-form .label {
   position: absolute;
   left: 20px;
-  bottom: 11px;
+  bottom: 30px;
   font-family: Lusitana, serif;
   font-size: 18px;
   line-height: 26px;
