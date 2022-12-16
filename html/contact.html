@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/sass.css">
+    <title>Contact Us</title>
 </head>
 <body>
     <header> 
@@ -34,55 +35,59 @@
         </div>
       </nav>
     </header>
-    <div class="section-container">
+
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <img style="height: 250px;" src="/images/contact.jpg" class="img-responsive" alt="">
-              <div class="card-container">
-                <div class="text-center">
-                  <h1 class="h2">Contact</h1>
-                </div>
-              </div>
+              <img style="margin-top: 50px; height: 450px;" src="/images/contact.jpg" class="img-responsive" alt="">
             </div>
-      
-        <div class="form">
-            <form>
-            <div>
-                <label for="firstname">First name</label>
-                <br>
-                <input type="text" id="firstname" name="firstname">
-                <br>
-            </div>
-            <div>
-                <label for="lastname">Last name</label>
-                <br>
-                <input type="text" id="lastname" name="lastname">
-                <br>
-            </div>
-            <div>
-                <label for="age" >Age</label>
-                <br>
-                <input type="text" id="age" name="trip-start">
-                <br>
-            </div>
-            <div>
-                <label for="email">Email</label>
-                <br>
-                <input type="email" id="email" name="email">
-                <br>
-            </div>
-            <div>
-                <label for="address">Address</label>
-                <br>
-                <input type="address" id="address" name="address">
-                <br>
-                <br>
-            </div>
-                <button id = "submit">Submit</button>
-                <p id="entry"></p>
-            </form>
+          </div>
         </div>
+
+
+
+
+      
+            <section  style="margin-top: 50px;" class="get-in-touch">
+              <h1 class="title">Contact Us!</h1>
+              <form class="contact-form row">
+                 <div class="form-field col x-50">
+                    <input id="name" class="input-text js-input" type="text" required>
+                    <label class="label" for="name">Name</label>
+                 </div>
+                 <div class="form-field col x-50">
+                  <label class="label" for="age">Age</label>
+                  <input name="trip-start" id="age" class="input-text js-input" type="text" required>
+               </div>
+                 <div class="form-field col x-50">
+                    <input id="email" class="input-text js-input" type="email" required>
+                    <label class="label" for="email">E-mail</label>
+                 </div>
+                 <div class="form-field col x-50">
+                  <input id="address" class="input-text js-input" type="address" required>
+                  <label class="label" for="address">Address</label>
+               </div>
+                 <div class="form-field col x-100">
+                    <input id="message" class="input-text js-input" type="text" required>
+                    <label class="label" for="message">Message</label>
+                 </div>
+                 <div class="form-field col x-100 align-center">
+
+                    <button class="submit-btn" id = "submit" value="Submit">Submit</button>
+                    <p id="entry"></p>
+                 </div>
+              </form>
+           </section>
+            </form>
+          </div>            
+
+
+
         <script src="../javascript/java.js"></script>
 </body>
 </html>
+
+
+
+
+

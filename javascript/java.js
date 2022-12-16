@@ -3,10 +3,21 @@ const checkAge = () => {
   const entryGranted =  document.querySelector("#entry");
   
    if(ageInput > 17) {
-    alert("we will contact you shortly");
+    alert("Thank you for your message!");
    } else {
-     alert("Must be over 18");
+     alert("Must be over 18!");
    }
  }
-  
  document.getElementById('submit').addEventListener('click', checkAge);
+
+ $( '.js-input' ).keyup(function() {
+  if( $(this).val() ) {
+     $(this).addClass('not-empty');
+  } else {
+     $(this).removeClass('not-empty');
+  }
+});
+  
+
+
+
