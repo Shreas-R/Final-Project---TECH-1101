@@ -1,30 +1,17 @@
-// const checkInput = () => {
-//   let nameInput = parseInt(document.querySelector('#name').value)
-//   let emailInput = parseInt(document.querySelector('#e-mail').value)
-//   let addressInput = parseInt(document.querySelector('#address').value)
-//   let messageInput = parseInt(document.querySelector('#message').value)
-//   let ageInput = parseInt(document.querySelector('#age').value)
-//   const entryGranted =  document.querySelector("#entry");
-//    if(nameInput == ''){
-//     entryGranted.innerHTML = "Please Fill Name section";
-//    }
-//    if(emailInput == ''){
-//     entryGranted.innerHTML = "Please Fill E-mail section";
-//    }
-//    if(addressInput == ''){
-//     entryGranted.innerHTML = "Please Fill Address section";
-//    }
-//    if(messageInput == ''){
-//     entryGranted.innerHTML = "Please Fill Message section";
-//    }
-//    if(ageInput > 17) {
-//     alert("Thank you for your message!");
-//    } else {
-//     alert("Must be over 18!");
-//    }
-//  }
-//  document.getElementById('submit').addEventListener('click', checkAge);
-
+function showInput() {
+  var nameInput = document.getElementById("name").value;
+  var ageInput = document.getElementById("age").value;
+  var emailInput = document.getElementById("e-mail").value;
+  var addressInput = document.getElementById("address").value;
+  var messageInput = document.getElementById("message").value;
+  document.getElementById("display").innerHTML = nameInput;
+  document.getElementById("display").innerHTML = ageInput;
+  document.getElementById("display").innerHTML = emailInput;
+  document.getElementById("display").innerHTML = addressInput;
+  document.getElementById("display").innerHTML = messageInput;
+}
+ 
+ 
  $( '.js-input' ).keyup(function() {
   if( $(this).val() ) {
      $(this).addClass('not-empty');
@@ -40,6 +27,3 @@ $(".hover").mouseleave(
     $(this).removeClass("hover");
   }
 );
-
-
-
