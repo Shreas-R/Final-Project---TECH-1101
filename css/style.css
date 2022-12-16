@@ -376,12 +376,29 @@ caption,th{
   }
 }
 
-
-
-.nav-back{
-  background-color: #ffffff;
-}
-
+@media (min-width:768px){
+  .col-sm-2,.col-sm-4,.col-sm-8,.col-sm-12{
+      float:left;
+  }
+  .col-sm-5{
+    float: right;
+  }
+  .col-sm-2{
+      width:17%
+  }
+  .col-sm-5{
+    width:50%;
+  }
+  .col-sm-4{
+      width:50%
+  }
+  .col-sm-8{
+      width:67%
+  }
+  .col-sm-offset-2{
+      margin-left:17%
+  }
+  }
 
 
 .visible-print{
@@ -573,4 +590,314 @@ p{
 }
 .nav.navbar-small>li>a{
   font-size:11px
+}
+
+
+
+html{
+  font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%
+}
+
+body{
+  margin:0
+}
+
+button,input,optgroup,select,textarea{
+  color:inherit;
+  font:inherit;
+  margin:0
+}
+button{
+  overflow:visible
+}
+button,select{
+  text-transform:none;
+}
+button,html input[type=button],input[type=reset],input[type=submit]{
+  cursor:pointer
+}
+button[disabled],html input[disabled]{
+  cursor:default
+}
+button::-moz-focus-inner,input::-moz-focus-inner{
+  border:0;
+  padding:0
+}
+
+*,:after,:before{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box
+}
+html{
+  font-size:10px;
+  -webkit-tap-highlight-color:transparent
+}
+body{
+  font-family:Roboto Mono,Helvetica,Arial,sans-serif;
+  font-size:11px;
+  line-height:1.78;
+  color:#000;
+  background-color:#fff
+}
+
+a{
+  color:#001aff;
+  text-decoration:none
+}
+
+img{
+  vertical-align:middle
+}
+.img-responsive{
+  display:block;
+  max-width:100%;
+  height:auto
+}
+
+
+.img-circle{
+  border-radius:50%
+}
+hr{
+  margin-top:19px;
+  margin-bottom:19px;
+  border:0;
+  border-top:1px solid #eee
+}
+p{
+  margin:0 0 9.5px
+}
+
+
+.text-center{
+  text-align:center
+}
+
+
+.container{
+  margin-right:auto;
+  margin-left:auto;
+  padding-left:15px;
+  padding-right:15px
+}
+
+.row{
+  margin-left:-15px;
+  margin-right:-15px
+}
+.row:after,.row:before{
+  content:" ";
+  display:table
+}
+.row:after{
+  clear:both
+}
+.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12,.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12,.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12,.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{
+  position:relative;
+  min-height:1px;
+  padding-left:15px;
+  padding-right:15px
+}
+@media (min-width:768px){
+  .col-sm-2,.col-sm-4,.col-sm-8,.col-sm-12{
+      float:left
+  }
+  .col-sm-2{
+      width:17%
+  }
+  .col-sm-4{
+      width:50%
+  }
+  .col-sm-5{
+    width: 50%;
+  }
+  .col-sm-8{
+      width:67%
+  }
+  .col-sm-offset-2{
+      margin-left:17%
+  }
+  }
+
+
+
+
+.btn{
+  display:inline-block;
+  margin-bottom:0;
+  font-weight:400;
+  text-align:center;
+  vertical-align:middle;
+  touch-action:manipulation;
+  cursor:pointer;
+  background-image:none;
+  border:1px solid transparent;
+  white-space:nowrap;
+  padding:8px 14px;
+  font-size:11px;
+  line-height:1.78;
+  border-radius:0;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+
+.btn.focus,.btn:focus,.btn:hover{
+  color:#000;
+  text-decoration:none
+}
+
+.btn-default,.btn-default.active,.btn-default.active.focus,.btn-default.active:focus,.btn-default.active:hover,.btn-default.focus,.btn-default:active,.btn-default:active.focus,.btn-default:active:focus,.btn-default:active:hover,.btn-default:focus,.btn-default:hover,.open>.btn-default.dropdown-toggle,.open>.btn-default.dropdown-toggle.focus,.open>.btn-default.dropdown-toggle:focus,.open>.btn-default.dropdown-toggle:hover{
+  color:#000;
+  background-color:transparent;
+  border-color:#000
+}
+
+.carousel-inner>.active,.carousel-inner>.next,.carousel-inner>.prev{
+  display:block
+}
+
+
+body{
+  padding:10px;
+  min-height:100vh
+}
+
+.section-container-spacer{
+  margin-bottom:30px
+}
+
+.section-container{
+  padding:60px 0
+}
+@media (max-width:768px){
+  .section-container:first-of-type{
+      padding-top:30px
+  }
+}
+
+.btn-default:focus,.btn-default:hover{
+  color:#fff;
+  background-color:#000;
+  border-color:#000
+}
+body,p{
+  font-weight:300;
+  letter-spacing:.8px;
+  line-height:25px
+}
+p{
+  margin:0 0 15px
+}
+
+
+.card-container{
+  background-color:#fff;
+  padding:2rem 5rem;
+  position:relative;
+  width:80%;
+  margin:-10em auto 20px
+}
+@media (max-width:992px){
+  .card-container{
+      padding:2rem;
+      margin-top:-5em
+  }
+}
+@media (max-width:992px){
+  .card-container.card-container-lg{
+      width:95%;
+      padding:2rem 3em;
+      margin-top:-10em
+  }
+}
+.black-image-project-hover{
+  display:block
+}
+.black-image-project-hover img{
+  -webkit-filter:contrast(200%) grayscale(100%);
+  filter:contrast(200%) grayscale(100%);
+  -webkit-transition:all .1s linear;
+  -o-transition:all .1s linear;
+  transition:all .1s linear
+}
+.black-image-project-hover img:hover{
+  filter:none
+}
+@media (max-width:992px){
+  .black-image-project-hover img{
+      filter:none
+  }
+}
+@media (max-width:768px){
+  .projects-carousel .carousel-control{
+      display:none
+  }
+  .projects-carousel .carousel-inner>.item{
+      display:block
+  }
+}
+.carousel-control{
+  top:50%;
+  bottom:auto;
+  width:50px;
+  height:50px;
+  margin-top:-25px;
+  border:1px solid #000;
+  background-color:#000;
+  font-size:30px;
+  color:#fff;
+  line-height:44px;
+  text-shadow:none;
+  opacity:1
+}
+.carousel-control:hover{
+  color:#fff;
+  background-color:#000;
+  opacity:.8
+}
+.carousel-control.left,.carousel-control.right{
+  background-image:none
+}
+.carousel-control.right{
+  right:-25px
+}
+.carousel-control.left{
+  left:-25px
+}
+@media (max-width:992px){
+  .carousel-control.right{
+      right:-12px
+  }
+  .carousel-control.left{
+      left:-12px
+  }
+}
+
+.nav-back{
+  background-color: white;
+}
+
+
+
+
+
+
+
+.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{
+  float:left
+}
+.col-xs-12{
+  width:100%;
+}
+.col-xs-pull-12{
+  right:100%
+}
+.col-xs-push-12{
+  left:100%
+}
+.col-xs-offset-12{
+  margin-left:100%
 }
