@@ -1,6 +1,9 @@
-body {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 13px;
+body{
+  font-family:Roboto Mono,Helvetica,Arial,sans-serif;
+  font-size:11px;
+  line-height:1.78;
+  color:#000;
+  background-color:#fff
 }
 .form {
   border-radius: 5px;
@@ -50,7 +53,7 @@ body {
   position: absolute;
   background-color: black;
   min-width: 160px;
-  z-index: 1;
+  z-index: 0;
 }
 .nav3 a{
   float: none;
@@ -97,4 +100,11 @@ body {
   width: 1000px;
   background: #000000;
   clear: both;
+}
+
+.container{
+  margin-right:auto;
+  margin-left:auto;
+  padding-left:15px;
+  padding-right:15px
 }
