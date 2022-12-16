@@ -10,11 +10,71 @@
 <body>
     <header></header>
     <div class="navigation">
-        <a href="/index.html">Home</a>
-        <a href="/html/index1.html">Snow Removal</a>
-        <a href="/html/index2.html">Lawn Mowing</a>
-        <a href="/html/index3.html">Prices</a>
-        <a href="/html/index4.html">Contact</a>
-    </div>
+        <div class="nav">
+            <a href="/index.html">Home</a>
+            <a href="/html/snow_removal.html">Snow Removal</a>
+            <a href="/html/lawn_mowing.html">Lawn mowing</a>
+            <a href= "/html/prices.html">Prices</a>
+            <a href="/html/contact.html">Contact</a>
+            <div class="nav2">
+                <button class="btn">
+                    Other Services
+                </button>
+                <div class="nav3">
+                    <!--Add other service links here-->
+                    <a href="">Link-1</a>
+                    <a href="">Link-2</a>
+                    <a href="">Link-3</a>
+                </div>
+            </div>
+        </div>
+            <div class="title">
+                <h1>Final Project</h1>
+            </div>
+    </div>        
+    <h2>Contact us</h1>
+        <div class="form">
+            <form>
+            <div>
+                <label for="firstname">First name</label>
+                <br>
+                <input type="text" id="fname" name="firstname">
+                <br>
+            </div>
+            <div>
+                <label for="lastname">Last name</label>
+                <br>
+                <input type="text" id="lname" name="lastname">
+                <br>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" name="email">
+                <br>
+            </div>
+            <div>
+                <label for="City">City</label>
+                <br>
+                <select id="City" name="City">
+                <option value="Calgary">Calgary</option>
+                <option value="Edmonton">Edmonton</option>
+                <option value="Grand Prairie">Grand Prairie</option>
+                <!-- <option value="...">....</option> -->
+                <!-- <option value="...">....</option> -->
+                <!-- <option value="...">....</option> to add more cities-->
+                </select>
+                <br>
+            </div>
+            <div>
+                <label for= "subject">Subject</label>
+                <br>
+                <textarea id = "subject" name = "subject"></textarea>
+                <br>
+            </div>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+        <script src="/javascript/java.js"></script>
 </body>
 </html>

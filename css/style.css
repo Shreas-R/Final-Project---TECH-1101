@@ -6,9 +6,15 @@ body{
   background-color:#fff
 }
 .form {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+ background-color: #000000;
+}
+.form div {
+  color: #FFFFFF;
+  margin: 5px;
+}
+.form textarea {
+  width: 500px;
+  height: 200px;
 }
 .wrapper {
   margin: 0 auto;
@@ -75,7 +81,7 @@ body{
 
 .title{
   color: white;
-  text-align: right;
+  text-align: center;
 }
 
 .navigation a:hover {
