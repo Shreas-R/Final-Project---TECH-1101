@@ -879,14 +879,7 @@ p{
 .nav-back{
   background-color: white;
 }
-
-
-
-
-
-
-
-.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{
+.col-xs-12{
   float:left
 }
 .col-xs-12{
@@ -900,4 +893,105 @@ p{
 }
 .col-xs-offset-12{
   margin-left:100%
+}
+
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+} 
+.wrapper{
+  max-width: 1090px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.wrapper .table{
+  background: #fff;
+  width: calc(33% - 20px);
+  padding: 30px 30px;
+  position: relative;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.price-area .inner-area .price{
+  font-size: 34px;
+  font-weight: 50;
+  margin-left: 42%;
+}
+.table .package-name{
+  width: 100%;
+  height: 2px;
+  margin: 35px 0;
+  position: relative;
+}
+.table .package-name::before{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 25px;
+  font-weight: 500;
+  background: #fff;
+  padding: 0 15px;
+  transform: translate(-50%, -50%);
+}
+
+.table .btn{
+  width: 100%;
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
+}
+.table .btn button{
+  width: 80%;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.table .btn button:hover{
+  border-radius: 5px;
+}
+
+.bi-weekly ::selection,.bi-weekly .price-area,.bi-weekly .inner-area{
+  background: #ffd861;
+}
+.bi-weekly .btn button{
+  border: 2px solid #ffd861;
+  background: #fff;
+  color: #ffd861;
+}
+.monthly ::selection, .monthly .price-area, .inner-area,  .btn button{
+  background: #a26bfa;
+}
+.monthly .btn button{
+  border: 2px solid #a26bfa;
+  color: #a26bfa;
+  background: #fff;
+}
+.yearly ::selection,.yearly .price-area,.yearly .inner-area{
+  background: #43ef8b;
+}
+.yearly .btn button{
+  border: 2px solid #43ef8b;
+  color: #43ef8b;
+  background: #fff;
+}
+.package-name{
+  font-size: 16px;
 }
